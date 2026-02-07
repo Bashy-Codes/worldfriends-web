@@ -10,4 +10,15 @@ node_modules/
 docs/
 .next/
 .env*.local
+.env
+.env.production
 .DS_Store
+
+# Vercel specific
+.vercelignore
+.vercel
+
+# Optional files
+*.pem
+.next
+
