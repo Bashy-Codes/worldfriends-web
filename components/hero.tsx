@@ -54,21 +54,6 @@ export function Hero() {
                 Download App
               </button>
             </div>
-
-            <div className="mt-10 flex items-center justify-center lg:justify-start gap-8 text-slate-500 text-sm font-medium">
-              <div className="flex -space-x-3">
-                {[1, 2, 3, 4].map((i) => (
-                  <div
-                    key={i}
-                    className="w-10 h-10 rounded-full border-2 border-white bg-gradient-to-br from-slate-300 to-slate-400"
-                  />
-                ))}
-                <div className="w-10 h-10 rounded-full border-2 border-white bg-slate-100 flex items-center justify-center text-xs font-bold text-slate-600">
-                  +2M
-                </div>
-              </div>
-              <p>Trusted by 2 million+ users</p>
-            </div>
           </motion.div>
 
           {/* User Profile Card */}
