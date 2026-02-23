@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { Download } from 'lucide-react';
 import Image from 'next/image';
 
@@ -14,15 +13,10 @@ export function Hero() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
           {/* Text Content */}
-          <motion.div
-            className="flex-1 text-center lg:text-left"
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, ease: 'easeOut' }}
-          >
+          <div className="flex-1 text-center lg:text-left">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#818CF8]/10 text-[#818CF8] font-semibold text-sm mb-6">
-              <span className="w-2 h-2 rounded-full bg-[#818CF8] animate-pulse" />
-              #1 International Friendships App
+              <span className="w-2 h-2 rounded-full bg-[#818CF8]" />
+              International Friendships Platform
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-extrabold text-slate-900 leading-tight mb-6 tracking-tight">
@@ -49,35 +43,17 @@ export function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-              <button className="w-full sm:w-auto px-8 py-4 rounded-full bg-[#818CF8] hover:bg-[#6c78f0] text-white font-semibold text-lg shadow-xl shadow-[#818CF8]/25 hover:shadow-2xl hover:shadow-[#818CF8]/30 hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-2 group">
+              <button className="w-full sm:w-auto px-8 py-4 rounded-full bg-[#6c78f0] text-white font-semibold text-lg shadow-2xl shadow-[#818CF8]/30 -translate-y-1 flex items-center justify-center gap-2">
                 <Download className="w-5 h-5" />
                 Download App
               </button>
             </div>
-
-            <div className="mt-10 flex items-center justify-center lg:justify-start gap-8 text-slate-500 text-sm font-medium">
-              <div className="flex -space-x-3">
-                {[1, 2, 3, 4].map((i) => (
-                  <div
-                    key={i}
-                    className="w-10 h-10 rounded-full border-2 border-white bg-gradient-to-br from-slate-300 to-slate-400"
-                  />
-                ))}
-                <div className="w-10 h-10 rounded-full border-2 border-white bg-slate-100 flex items-center justify-center text-xs font-bold text-slate-600">
-                  +2M
-                </div>
-              </div>
-              <p>Trusted by 2 million+ users</p>
-            </div>
-          </motion.div>
+            {/* user count removed per request */}
+            <div className="mt-10" />
+          </div>
 
           {/* User Profile Card */}
-          <motion.div
-            className="flex-1 relative w-full max-w-[400px]"
-            initial={{ opacity: 0, x: 30 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.2, ease: 'easeOut' }}
-          >
+          <div className="flex-1 relative w-full max-w-[400px]">
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl shadow-indigo-500/20 border-0 bg-white w-full max-w-[360px] mx-auto">
               {/* Profile Header Image */}
               <div className="relative w-full h-48 bg-gradient-to-br from-[#818CF8] to-purple-500">
@@ -137,30 +113,22 @@ export function Hero() {
             </div>
 
             {/* Floating Cards Decorative */}
-            <motion.div
-              className="absolute -left-8 top-1/4 bg-white p-4 rounded-2xl shadow-xl z-20 hidden md:flex items-center gap-3"
-              animate={{ y: [0, -10, 0] }}
-              transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
-            >
+            <div className="absolute -left-8 top-1/4 bg-white p-4 rounded-2xl shadow-xl z-20 hidden md:flex items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center text-xl">👋</div>
               <div>
                 <p className="font-bold text-slate-800 text-sm">New Match!</p>
                 <p className="text-xs text-slate-500">Sarah from UK</p>
               </div>
-            </motion.div>
+            </div>
 
-            <motion.div
-              className="absolute -right-8 bottom-1/4 bg-white p-4 rounded-2xl shadow-xl z-20 hidden md:flex items-center gap-3"
-              animate={{ y: [0, 10, 0] }}
-              transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
-            >
+            <div className="absolute -right-8 bottom-1/4 bg-white p-4 rounded-2xl shadow-xl z-20 hidden md:flex items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center text-xl">🌎</div>
               <div>
                 <p className="font-bold text-slate-800 text-sm">Global Reach</p>
                 <p className="text-xs text-slate-500">150+ Countries</p>
               </div>
-            </motion.div>
-          </motion.div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -2,7 +2,6 @@ import { Navbar } from '@/components/navbar'
 import { Hero } from '@/components/hero'
 import { ValueProp } from '@/components/value-prop'
 import { Features } from '@/components/features'
-import { Testimonials } from '@/components/testimonials'
 import { CallToAction } from '@/components/call-to-action'
 import { Footer } from '@/components/footer'
 
@@ -85,8 +84,8 @@ export default function Page() {
       {
         '@type': 'ListItem',
         position: 3,
-        name: 'Community',
-        item: 'https://worldfriends.app#testimonials',
+        name: 'Sponsors',
+        item: 'https://worldfriends.app#sponsors',
       },
     ],
   }
@@ -148,7 +147,6 @@ export default function Page() {
           <Hero />
           <ValueProp />
           <Features />
-          <Testimonials />
           <CallToAction />
         </main>
         <Footer />

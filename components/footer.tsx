@@ -24,19 +24,20 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
-              Connect with people from 180+ countries. Master any language through real conversations and build friendships that last a lifetime.
+              WorldFriends helps you build real friendships across borders. Discover new cultures,
+              practice languages, and share experiences with people who are curious about the world.
             </p>
             <div className="flex items-center gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-[#818CF8] hover:text-white transition-all duration-200">
+              <a href="#" className="w-10 h-10 rounded-full bg-[#818CF8] flex items-center justify-center text-white">
                 <Facebook size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-[#818CF8] hover:text-white transition-all duration-200">
+              <a href="#" className="w-10 h-10 rounded-full bg-[#818CF8] flex items-center justify-center text-white">
                 <Twitter size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-[#818CF8] hover:text-white transition-all duration-200">
+              <a href="#" className="w-10 h-10 rounded-full bg-[#818CF8] flex items-center justify-center text-white">
                 <Instagram size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-[#818CF8] hover:text-white transition-all duration-200">
+              <a href="#" className="w-10 h-10 rounded-full bg-[#818CF8] flex items-center justify-center text-white">
                 <Youtube size={18} />
               </a>
             </div>
@@ -47,22 +48,22 @@ export function Footer() {
             <h4 className="text-white font-display font-bold text-lg mb-6">Company</h4>
             <ul className="space-y-4 text-sm">
               <li>
-                <a href="#" className="hover:text-[#818CF8] transition-colors">
+                <a href="#" className="text-[#818CF8]">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#818CF8] transition-colors">
+                <a href="#" className="text-[#818CF8]">
                   Careers
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#818CF8] transition-colors">
+                <a href="#" className="text-[#818CF8]">
                   Blog
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#818CF8] transition-colors">
+                <a href="#" className="text-[#818CF8]">
                   Press Kit
                 </a>
               </li>
@@ -74,22 +75,22 @@ export function Footer() {
             <h4 className="text-white font-display font-bold text-lg mb-6">Support</h4>
             <ul className="space-y-4 text-sm">
               <li>
-                <a href="#" className="hover:text-[#818CF8] transition-colors">
+                <a href="#" className="text-[#818CF8]">
                   Help Center
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#818CF8] transition-colors">
+                <a href="#" className="text-[#818CF8]">
                   Safety Center
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#818CF8] transition-colors">
+                <a href="#" className="text-[#818CF8]">
                   Community Guidelines
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-[#818CF8] transition-colors">
+                <a href="#" className="text-[#818CF8]">
                   Contact Us
                 </a>
               </li>
@@ -102,13 +103,13 @@ export function Footer() {
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-slate-500">{`© ${new Date().getFullYear()} WorldFriends. All rights reserved.`}</p>
           <div className="flex gap-6 text-xs text-slate-500">
-            <a href="#" className="hover:text-white transition-colors">
+            <a href="#" className="text-white">
               Privacy Policy
             </a>
-            <a href="#" className="hover:text-white transition-colors">
+            <a href="#" className="text-white">
               Terms of Service
             </a>
-            <a href="#" className="hover:text-white transition-colors">
+            <a href="#" className="text-white">
               Cookie Policy
             </a>
           </div>

@@ -8,16 +8,16 @@ const _geist = Geist({ subsets: ['latin'] })
 const _geistMono = Geist_Mono({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'WorldFriends - #1 Best Friends Finding App | International Friendships & Language Exchange',
-  description: 'Find friends from 180+ countries, practice languages, and exchange cultures on WorldFriends. Join 2M+ users in the best friends finding app for meaningful international connections.',
-  keywords: 'best friends finding app, international friends app, language exchange app, cultural exchange, make friends online, language learning, global friendship community, pen pals, language partners, chat with people worldwide',
+  title: 'WorldFriends - Make Global Connections, Find International Friends, Practice Languages, and Exchange Cultures',
+  description: 'Connect with people from 180+ countries. Professional global connections, language exchange, and cultural networking for meaningful international relationships.',
+  keywords: 'global connections, professional networking, international friends, language exchange, cultural exchange, make friends online, language partners, chat worldwide',
   metadataBase: new URL('https://worldfriends.app'),
   alternates: {
     canonical: 'https://worldfriends.app',
   },
   openGraph: {
-    title: 'WorldFriends - Best Friends Finding App | Connect Globally',
-    description: 'Discover the #1 platform to find friends, practice languages, and exchange cultures with 180+ countries. Join 2M+ users today!',
+    title: 'WorldFriends - Professional Global Connections | Connect Globally',
+    description: 'Discover a professional platform to find friends, practice languages, and exchange cultures with 180+ countries.',
     url: 'https://worldfriends.app',
     siteName: 'WorldFriends',
     locale: 'en_US',
@@ -41,8 +41,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'WorldFriends - Best Friends Finding App',
-    description: 'Find international friends & practice languages on the #1 global friendship app',
+    title: 'WorldFriends - Global Connections',
+    description: 'Find international connections & practice languages on a professional global platform',
     creator: '@worldfriends',
     images: ['https://worldfriends.app/og-image.png'],
   },

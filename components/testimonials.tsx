@@ -41,7 +41,7 @@ export function Testimonials() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((t, i) => (
-            <div key={i} className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 flex flex-col">
+            <div key={i} className="bg-white p-8 rounded-2xl shadow-xl border border-[#818CF8]/10 flex flex-col -translate-y-1">
               <div className="flex gap-1 text-yellow-400 mb-6">
                 {[1, 2, 3, 4, 5].map((star) => (
                   <Star key={star} size={18} fill="currentColor" />
