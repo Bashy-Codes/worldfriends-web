@@ -34,10 +34,6 @@ export default function Page() {
       ratingCount: '125000',
       reviewCount: '85000',
     },
-    downloadUrl: [
-      'https://apps.apple.com/app/worldfriends',
-      'https://play.google.com/store/apps/details?id=com.worldfriends',
-    ],
   }
 
   const organizationSchema = {
@@ -47,17 +43,10 @@ export default function Page() {
     url: 'https://worldfriends.app',
     logo: 'https://worldfriends.app/logo.png',
     description: 'International friendship and language learning social app connecting people from 180+ countries.',
-    sameAs: [
-      'https://twitter.com/worldfriends',
-      'https://www.instagram.com/worldfriends',
-      'https://www.facebook.com/worldfriends',
-      'https://www.linkedin.com/company/worldfriends',
-    ],
     foundingDate: '2020',
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'Customer Support',
-      url: 'https://worldfriends.app/support',
       email: 'hello@worldfriends.app',
     },
     areaServed: {
@@ -84,8 +73,8 @@ export default function Page() {
       {
         '@type': 'ListItem',
         position: 3,
-        name: 'Sponsors',
-        item: 'https://worldfriends.app#sponsors',
+        name: 'Get App',
+        item: 'https://worldfriends.app#cta',
       },
     ],
   }

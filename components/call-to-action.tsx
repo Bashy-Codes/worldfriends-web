@@ -4,7 +4,7 @@ import { Apple, Smartphone } from 'lucide-react';
 
 export function CallToAction() {
   return (
-    <section className="py-20 px-4 md:px-6">
+    <section id="cta" className="py-20 px-4 md:px-6">
       <div className="container mx-auto">
         <div className="bg-[#818CF8] rounded-[2.5rem] p-8 md:p-16 text-center text-white relative overflow-hidden shadow-2xl shadow-indigo-500/30">
           {/* Background circles */}

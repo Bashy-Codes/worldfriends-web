@@ -21,7 +21,7 @@ export function Navbar() {
   const navLinks = [
     { name: 'Home', href: '/' },
     { name: 'Features', href: '#features' },
-    { name: 'Community', href: '#testimonials' },
+    { name: 'Get App', href: '#cta' },
   ];
 
   const handleNavClick = (href: string) => {

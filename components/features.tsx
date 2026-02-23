@@ -18,8 +18,14 @@ export function Features() {
       color: 'bg-purple-100 text-purple-600',
     },
     {
+      icon: <Users className="w-6 h-6" />,
+      title: 'Communities',
+      desc: 'Discover and join active communities built around languages, regions, hobbies, and shared goals.',
+      color: 'bg-blue-100 text-blue-600',
+    },
+    {
       icon: <Share2 className="w-6 h-6" />,
-      title: 'Posts & Moments',
+      title: 'Posts & Feed',
       desc: 'Share your life through posts, comments, threads, and reactions in a global social feed.',
       color: 'bg-green-100 text-green-600',
     },
